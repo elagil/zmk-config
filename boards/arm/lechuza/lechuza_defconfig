@@ -1,0 +1,19 @@
+# Lechuza board configuration
+
+# Copyright (c) 2022 elagil
+# SPDX-License-Identifier: MIT
+
+CONFIG_SOC_SERIES_STM32L0X=y
+CONFIG_SOC_STM32L072XX=y
+
+# 32 MHz system clock
+CONFIG_SYS_CLOCK_HW_CYCLES_PER_SEC=32000000
+
+CONFIG_PINCTRL=y
+CONFIG_GPIO=y
+
+# ZMK Settings
+CONFIG_ZMK_USB=y
+
+# clock configuration
+CONFIG_CLOCK_CONTROL=y

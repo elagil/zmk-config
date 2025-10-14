@@ -1,0 +1,8 @@
+# Polilla board configuration
+
+# Copyright (c) 2025 elagil
+# SPDX-License-Identifier: MIT
+
+config BOARD_POLILLA
+	bool "polilla"
+	depends on SOC_NRF52840_QIAA
